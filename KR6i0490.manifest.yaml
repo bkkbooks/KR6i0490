@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR6i0490/v1
+canonical_location: https://kanripo.org/bkk/KR6i0490/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說木槵子經
+  identifiers:
+    alt_id:
+    - T17n0786
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0786.xml
+    old_id: T17n0786
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit4
+- short: 明
+  label: 明
+  source_xml_id: wit5
+- short: 和
+  label: 和
+  source_xml_id: wit2
+- short: 縮
+  label: 縮
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 宮
+  label: 宮
+  source_xml_id: wit6
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0490_000.yaml, hash: 'sha256:d69759ddf10bcf0bbe65c043577051f12fb69739dfceb57637d6a8dc23f1cdde'}
+  - {seq: 1, filename: KR6i0490_001.yaml, hash: 'sha256:1f4aea42097a4edfc321bd59d9faf0b2ce3faaca2a71d95fcb573c51f2c23445'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0490_001.markers.yaml, hash: 'sha256:53fa3aca0db48f680e9e09f04d7844d9554288af6a5411c3062d56583c78a36a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0490_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 483
+  label: 佛說木槵子經
+  type: juan
+  level: 1
+hash: sha256:101173f91135721440405a97d95b5f04fdc1d2b0d958cec5751703a48a4072e1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
